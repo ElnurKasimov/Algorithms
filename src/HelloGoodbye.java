@@ -1,10 +1,8 @@
-import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 public class HelloGoodbye {
     public static void main(String[] args) {
-        String in1 = StdIn.readString();
-        String in2 = StdIn.readString();
-        System.out.println("Hello " + in1 + " and " + in2);
-        System.out.println("Goodbye " + in2 + " and " + in1);
+        StdOut.println("Hello " + args[0] + " and " + args[1]);
+        StdOut.println("Goodbye " + args[1] + " and " + args[0]);
     }
 }
