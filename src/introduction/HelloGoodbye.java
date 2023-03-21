@@ -1,3 +1,5 @@
+package introduction;
+
 import edu.princeton.cs.algs4.StdOut;
 
 import java.lang.reflect.Array;
